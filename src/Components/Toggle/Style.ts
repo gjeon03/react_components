@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-export const ToggleArea = styled.div`
-	width: auto;
-	height: 150px;
-`;
-
-export const Title = styled.h1``;
-
 export const ToggleBox = styled.div`
 	width: 400px;
 	height: 40px;

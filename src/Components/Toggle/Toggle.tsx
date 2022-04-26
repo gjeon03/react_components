@@ -1,12 +1,11 @@
 import { useState } from "react";
 import {
-	ToggleArea,
-	Title,
 	ToggleBox,
 	ToggleName,
 	ToggleLabel,
 	Detail
 } from "./Style";
+import { Area, Title } from "../../Style/Styles";
 
 export default function Toggle() {
 	const [toggle, setToggle] = useState<boolean>(false);
@@ -17,7 +16,7 @@ export default function Toggle() {
 			setToggle(true);
 	};
 	return (
-		<ToggleArea>
+		<Area>
 			<Title>Toggle</Title>
 			<ToggleBox>
 				<ToggleName
@@ -33,6 +32,6 @@ export default function Toggle() {
 				<ToggleLabel $toggle={toggle} />
 			</ToggleBox>
 			<Detail>{toggle ? "상세" : "기본"}</Detail>
-		</ToggleArea>
+		</Area>
 	);
 }

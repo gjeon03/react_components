@@ -1,6 +1,6 @@
 # React component walkthrough
 
-- [] Toggle
+- [o] Toggle
 - [] Tab
 - [] Slider
 - [] input
