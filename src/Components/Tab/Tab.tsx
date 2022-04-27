@@ -29,7 +29,7 @@ export default function Tab() {
 			<TabForm method="getea">
 				{tabInfo.map((v, i) => {
 					return (
-						<Item key={i + 1} $checked={v.checked}>
+						<Item key={i} $checked={v.checked}>
 							<Radio onChange={handleChange}
 								type="radio"
 								checked={v.checked}
