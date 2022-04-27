@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Area = styled.div`
 	width: 100%;
-	height: 200px;
+	height: 230px;
 	border-bottom: 1px solid black;
 `;
 
