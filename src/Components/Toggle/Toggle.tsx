@@ -2,10 +2,9 @@ import { useState } from "react";
 import {
 	ToggleBox,
 	ToggleName,
-	ToggleLabel,
-	Detail
+	ToggleLabel
 } from "./Style";
-import { Area, Title } from "../../Style/Styles";
+import { Area, Title, Detail } from "../../Style/Styles";
 
 export default function Toggle() {
 	const [toggle, setToggle] = useState<boolean>(false);

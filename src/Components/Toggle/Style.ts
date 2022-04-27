@@ -38,13 +38,3 @@ export const ToggleLabel = styled.label<{ $toggle: boolean }>`
 		`
 	}
 `;
-
-export const Detail = styled.span`
-	width: 400px;
-	height: 30px;
-	margin-top: 10px;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-`;

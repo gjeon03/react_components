@@ -7,3 +7,13 @@ export const Area = styled.div`
 `;
 
 export const Title = styled.h1``;
+
+export const Detail = styled.span`
+	width: 400px;
+	height: 30px;
+	margin-top: 40px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
